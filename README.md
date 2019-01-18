@@ -16,25 +16,21 @@ Langkah installnya cukup mudah seperti menginstall software di windows pada umum
  
 Setelah selesai install, kita dapat mencoba perintah untuk mengetahui versi Docker yang terinstal dengan perintah :
 
-	~~~
-	docker -v
-	~~~
-
-	~~~
-	docker -v
-	~~~
-
+~~~
+docker -v
+~~~
 	
  ![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox/blob/master/img-5.JPG "Enjang DK")
 	
 Kemudian kita juga bisa melihat versi docker compose dan docker-machine dengan perintah :
-	~~~
-	docker-compose -version
-	~~~
 
-	~~~
-	docker-machine -version
-	~~~
+~~~
+docker-compose -version
+~~~
+
+~~~
+docker-machine -version
+~~~
 
 ![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox/blob/master/img-6.JPG "Enjang DK")
 
@@ -50,6 +46,7 @@ Tunggu beberapa saat sampai proses selesai dan muncul tampilan seperti berikut :
 ![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox/blob/master/img-8.JPG "Enjang DK")
 
 Untuk percobaan pertama saya mencoba menjalankan hello world dengan perintah 
+
 ~~~
 docker run hello-world
 ~~~
