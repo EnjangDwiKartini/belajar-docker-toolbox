@@ -4,55 +4,50 @@ Dalam proses belajar Docker ini saya menggunakan sistem Operasi Windows, sehingg
 Untuk menginstall Docker Toolbox ini dapat  diakses di dokumentasi resmi Docker dengan alamat sebagai berikut :
 https://docs.docker.com/toolbox/toolbox_install_windows/ 
 
-<<<<<<< HEAD
+
 Langkah installnya cukup mudah seperti menginstall software di windows pada umumnya. Berikut beberapa dokumentasi langkah install Docker Toolbox :
 
-=======
-Langkah installnya cukup mudah seperti berikut :
- ![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox-enjang/blob/master/img-1.JPG "Enjang DK")
+
+ ![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox/blob/master/img-2.JPG "Enjang DK")
  
->>>>>>> 3a6b86ebb12a2bb5559dd35374532d32b10df148
- ![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox-enjang/blob/master/img-2.JPG "Enjang DK")
+ ![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox/blob/master/img-3.JPG "Enjang DK")
  
- ![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox-enjang/blob/master/img-3.JPG "Enjang DK")
- 
- ![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox-enjang/blob/master/img-4.JPG "Enjang DK")
+ ![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox/blob/master/img-4.JPG "Enjang DK")
  
 Setelah selesai install, kita dapat mencoba perintah untuk mengetahui versi Docker yang terinstal dengan perintah :
 
-<<<<<<< HEAD
 	~~~
 	docker -v
 	~~~
-=======
-~~~
-docker -v
-~~~
->>>>>>> 3a6b86ebb12a2bb5559dd35374532d32b10df148
+
+	~~~
+	docker -v
+	~~~
+
 	
- ![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox-enjang/blob/master/img-5.JPG "Enjang DK")
+ ![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox/blob/master/img-5.JPG "Enjang DK")
 	
 Kemudian kita juga bisa melihat versi docker compose dan docker-machine dengan perintah :
-~~~
-docker-compose -version
-~~~
+	~~~
+	docker-compose -version
+	~~~
 
-~~~
-docker-machine -version
-~~~
+	~~~
+	docker-machine -version
+	~~~
 
-![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox-enjang/blob/master/img-6.JPG "Enjang DK")
+![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox/blob/master/img-6.JPG "Enjang DK")
 
 
 Untuk memudahkan proses pertama konfigurasi dapat menggunakan Docker Quickstart 
 
-![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox-enjang/blob/master/dockerQuick.JPG "Enjang DK") 
+![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox/blob/master/dockerQuick.JPG "Enjang DK") 
 
-![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox-enjang/blob/master/img-7.JPG "Enjang DK")
+![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox/blob/master/img-7.JPG "Enjang DK")
 
 Tunggu beberapa saat sampai proses selesai dan muncul tampilan seperti berikut :
 
-![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox-enjang/blob/master/img-8.JPG "Enjang DK")
+![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox/blob/master/img-8.JPG "Enjang DK")
 
 Untuk percobaan pertama saya mencoba menjalankan hello world dengan perintah 
 ~~~
@@ -61,7 +56,7 @@ docker run hello-world
 
 Dari perintah tersebut maka akan menampilkan hasil sebagai berikut :
 
-![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox-enjang/blob/master/img-9.JPG "Enjang DK")
+![alt text](https://github.com/EnjangDwiKartini/belajar-docker-toolbox/blob/master/img-9.JPG "Enjang DK")
 
 
 
